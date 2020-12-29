@@ -1,6 +1,48 @@
 .App {
   text-align: center;
+  background-color: rgb(211, 199, 199);
+  height: 1000vh;
+  
+  
 }
+
+.main{
+     display: inline-block;
+     color: rgb(102, 139, 175);
+     font-size: 25px;
+     margin-top:60px;
+  
+    
+    
+}
+
+
+h1{
+    color: rgb(243, 145, 18) !important;
+    font-size: 30px;
+    border-bottom: 4px solid green;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
