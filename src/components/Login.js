@@ -39,7 +39,7 @@ const Work=(props)=>{
                      
                        <h1> LOGN IN </h1> <br />
                     <TextField id="standard-basic" className="input"  value={email}    label="Email"  onChange={(e)=> setEmail(e.target.value)} /><br/>
-                    <TextField id="standard-basic" className="input"  value={password} label="Password"  onChange={(e)=> setPassword(e.target.value)} /><br/> <br/>       
+                    <TextField id="standard-basic" className="input"  value={password} label="password"  onChange={(e)=> setPassword(e.target.value)} /><br/> <br/>       
                          <Button className="loginbtn" variant="contained" color="primary" onClick={LogIn}>Login</Button>
                          <Button className="loginbtn" variant="contained" color="primary" onClick={SignUp}>Sign Up</Button>
 

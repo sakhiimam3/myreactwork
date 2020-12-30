@@ -19,10 +19,24 @@ label{
           
         
 }
+form{
+        width:100%;
+        margin-top: 100px;
+        background-color: blanchedalmond;       
+        font-size: 23px;
+       height: 400px;
+       
+}
 table{
       
       border: 2px solid white;
-      width: 500px;
+      width: 420px;
       text-align: center;
-      margin-left: 420px;
+      margin-top: 40px;
+}
+
+.header{
+          width: 100%;
+          height: 120px;
+          background:linear-gradient(blue,green,red)
 }

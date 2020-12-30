@@ -55,7 +55,10 @@ const Navi=(props)=>{
                        
                  })
 
-         
+                        setName=""
+                         setFname=""
+                         setClassnum=""
+                         setAddress=""
 
 
         }
@@ -70,27 +73,32 @@ const Navi=(props)=>{
 
                 <div>
               
-                <div main>
-                         <h1>Dars Gahe kursheed Sec School</h1>
-                          <h1>Admessionn form</h1>
+                <div  className="container row col-sm">
+                         <header className="header"> 
+                         <h1>Dars Gahe kursheed Sec School </h1>
+                          <h1> Admessionn form</h1>
+                         </header>
+
+
+                       
   
                           <form action="">
-                  <label> Name   :</label>   <TextField id="standard-basic" className="input" value={name}  label="Name"  onChange={(e)=> setName(e.target.value)} />  <br/>
-                  <label> F.Name :</label>   <TextField id="standard-basic" className="input" value={fname}  label="fname"  onChange={(e)=> setFname(e.target.value)} />  <br/>
-                  <label> Class  :</label>   <TextField id="standard-basic" className="input" value={cls}  label="class"  onChange={(e)=> setClassnum(e.target.value)} />  <br/>
-                  <label> Address :</label>  <TextField id="standard-basic" className="input" value={address}  label="address"  onChange={(e)=> setAddress(e.target.value)} /> <br/> <br />
+                  <label> Name   :</label> <br />  <TextField id="standard-basic" className="input" value={name}  label="Name"  onChange={(e)=> setName(e.target.value)} />  <br/>
+                  <label> F.Name :</label> <br />  <TextField id="standard-basic" className="input" value={fname}  label="fname"  onChange={(e)=> setFname(e.target.value)} />  <br />
+                  <label> Class  :</label> <br />  <TextField id="standard-basic" className="input" value={cls}  label="class"  onChange={(e)=> setClassnum(e.target.value)} />  <br/>
+                  <label> Address :</label><br />  <TextField id="standard-basic" className="input" value={address}  label="address"  onChange={(e)=> setAddress(e.target.value)} /> <br/> <br />
                   <Button variant="contained" color="secomdary" onClick={submit}>submit</Button>
                   <Button variant="contained" color="primary" onClick={logout}>logout</Button>
                       </form>
                      </div>  
-                   
+                         <div className="conatiner row col-sm-12">
                        <div className="data">
                              <table>
                                      <tr>
-                                     <th>Name </th>        <br />
-                                     <th>f.Name </th><br />
-                                     <th>Class </th><br />
-                                     <th> Address </th><br />
+                                     <th>Name </th>       
+                                     <th>f.Name </th>
+                                     <th>Class </th>
+                                     <th> Address </th>
                                       </tr>
 
                                       {allData && allData.map((d,i)=>{
@@ -117,7 +125,7 @@ const Navi=(props)=>{
 
 
         
-
+          </div>
 
 
                 
